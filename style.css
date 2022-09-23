@@ -1,0 +1,146 @@
+body{
+    overflow: hidden;
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+.button{
+    background-color: rgb(240, 225, 178);
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(240, 225, 178), rgb(214, 204, 174));
+}
+h2{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+    font-size: 25px;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+img{
+    height: 150px;
+    width: 250px;
+    position: relative;
+    left: 75px;
+}
+.leftPage{
+    position: absolute;
+    left: 475px;
+    top: 150px;
+    /*background-color: blue;*/
+    height: 650px;
+    width: 450px;
+}
+.rightPage{
+    position: absolute;
+    left: 975px;
+    top: 150px;
+    /*background-color: red;*/
+    height: 650px;
+    width: 450px;
+}
+#book{
+    width: 200vh;
+    height: 100vh;
+    background-position: center;
+    background-image: url(./frame/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pageExperience{
+    display: none;
+}
+#pageCompetence{
+    display: none;
+}
+#Passion{
+    display: none;
+}
+#Decouvrir{
+    display: none;
+}
+#before{
+    position: absolute;
+    height: 300px;
+    top: 330px;
+    left: 455px;
+}
+#after{
+    position: absolute;
+    height: 300px;
+    top: 330px;
+    left: 1405px;
+}
+.ball{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+.red{
+    background-color: rgb(184, 173, 146);
+    
+}
+.blue{
+    background-color: rgb(83, 78, 63);
+}
+#para{
+    height: 25px;
+    width: 100px;
+}
+.ballslots{
+    height: 25px;
+    width: 450px; 
+    display: flex;
+    justify-content: center;
+}
+#testpara{
+    position: absolute;
+}
+#before{
+    display: none;
+}
+#icons{
+    height: 64px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+}
+.icon:hover{
+    height: 64px;
+    width: 64px;
+}
+#facebook{
+    background-image: url(./icons/facebook.png);
+}
+#instagram{
+    background-image: url(./icons/instagram.png);
+}
+#linkedin{
+    background-image: url(./icons/linkedin.png);
+}
+#steam{
+    background-image: url(./icons/steam.png);
+}
+#itch{
+    background-image: url(./icons/itch.png);
+}
+#discord{
+    background-image: url(./icons/discord.png);
+}
